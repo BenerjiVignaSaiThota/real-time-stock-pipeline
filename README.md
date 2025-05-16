@@ -1,6 +1,6 @@
-# Real-Time Stock Data Pipeline
+# Real-Time Stock Data Pipeline using Kafka, Zookeeper and PostgreSQL
 
-This project demonstrates a real-time data pipeline using:
+This project demonstrates a real-time data pipeline of HDFC company stocks using:
 
 - **Kafka** for streaming stock data
 - **Spark Structured Streaming** for processing
@@ -14,6 +14,22 @@ This project demonstrates a real-time data pipeline using:
 4. Spark transforms and pushes it to PostgreSQL.
 
 ## Getting Started
+
+## Data Source
+I have utilized kaggle dataset in order to implement this stock monitoring data pipeline.
+
+Dataset Name: Stock Price Prediction || MODWT Application
+
+Dataset link: https://www.kaggle.com/datasets/mishra5001/stock-price-prediction-modwt-application?select=HDFC.daily.csv
+
+This dataset has following columns:
+Symbol (representing the Stock Code)
+t (timestamp when the following record was recorded)
+o (opening price of stock)
+c (closing price of the stock)
+h (high price)
+l (low price)
+v (value of the stock)
 
 ### Prerequisites
 
