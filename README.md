@@ -37,6 +37,30 @@ v (value of the stock)
 - Python (for producer)
 - Spark installed (or use PySpark in standalone mode)
 
+### Sample Output
+Loaded dataset with 4973 rows
+Columns: Index(['symbol', 't', 'o', 'h', 'l', 'c', 'v'], dtype='object')
+Sent: {'symbol': 'HDFC', 'price': 59.13, 'timestamp': 983232000}
+Sent: {'symbol': 'HDFC', 'price': 59.35, 'timestamp': 983318400}
+Sent: {'symbol': 'HDFC', 'price': 59.85, 'timestamp': 983404800}
+Sent: {'symbol': 'HDFC', 'price': 55.61, 'timestamp': 983491200}
+Sent: {'symbol': 'HDFC', 'price': 52.62, 'timestamp': 983750400}
+Sent: {'symbol': 'HDFC', 'price': 54.41, 'timestamp': 983923200}
+Sent: {'symbol': 'HDFC', 'price': 54.08, 'timestamp': 984009600}
+Sent: {'symbol': 'HDFC', 'price': 54.04, 'timestamp': 984096000}
+Sent: {'symbol': 'HDFC', 'price': 54.51, 'timestamp': 984355200}
+Sent: {'symbol': 'HDFC', 'price': 54.6, 'timestamp': 984441600}
+Sent: {'symbol': 'HDFC', 'price': 59.4, 'timestamp': 984528000}
+Sent: {'symbol': 'HDFC', 'price': 57.27, 'timestamp': 984614400}
+Sent: {'symbol': 'HDFC', 'price': 57.19, 'timestamp': 984700800}
+Sent: {'symbol': 'HDFC', 'price': 56.95, 'timestamp': 984960000}
+Sent: {'symbol': 'HDFC', 'price': 55.68, 'timestamp': 985046400}
+Sent: {'symbol': 'HDFC', 'price': 56.88, 'timestamp': 985132800}
+Sent: {'symbol': 'HDFC', 'price': 58.64, 'timestamp': 985219200}
+Sent: {'symbol': 'HDFC', 'price': 58.62, 'timestamp': 985305600}
+Sent: {'symbol': 'HDFC', 'price': 57.89, 'timestamp': 985564800}
+Sent: {'symbol': 'HDFC', 'price': 58.67, 'timestamp': 985651200}
+
 ### Setup
 
 ```bash
