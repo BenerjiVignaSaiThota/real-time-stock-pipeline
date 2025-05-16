@@ -1,4 +1,4 @@
-# Real-Time Stock Data Pipeline using Kafka, Zookeeper and PostgreSQL
+# Real-Time Stock Data Pipeline using Kafka, Docker and PostgreSQL
 
 This project demonstrates a real-time data pipeline of HDFC company stocks using:
 
